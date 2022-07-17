@@ -60,7 +60,7 @@ function Contact() {
       const newContactList = [...contacts];
       const index = newContactList.findIndex((c) => c.id === contact.id);
       newContactList[index] = contact;
-      setContacts([...newContactList]);
+      setContacts(sortContact([...newContactList]));
       setOpen(false);
       setEditingContact(null);
       onTriggerToast("updated");
