@@ -1,7 +1,7 @@
 import { Button, Fab, Snackbar } from "@mui/material";
 import { Box } from "@mui/system";
-import ContactList from "./ContactList";
-import ContactDetail from "./ContactDetail";
+import ContactList from "../components/ContactList";
+import ContactDetail from "../components/ContactDetail";
 import AddIcon from "@mui/icons-material/Add";
 import { Contact as IContact } from "../types/Contact";
 import { useEffect, useState } from "react";

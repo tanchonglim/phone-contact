@@ -1,6 +1,6 @@
 import { List } from "@mui/material";
-import ContactItem from "../components/ContactItem";
-import { Contact } from "./../types/Contact";
+import ContactItem from "./ContactItem";
+import { Contact } from "../types/Contact";
 
 function ContactList({ contactList, onSelect }: { contactList: Contact[]; onSelect: (contact: Contact) => void }) {
   return (
